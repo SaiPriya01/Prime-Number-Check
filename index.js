@@ -7,7 +7,7 @@ console.log(date[0])
 if (date[0]==1){
   console.log(userName.toUpperCase()+" your Date Of Birth is neither prime nor composite number");
 }
-else if (date[0]>1 && date[0]<=31){
+else if (date[0]>1 && date[0]<=31 && date[1]<12 ){
   for (let i=2;i<date[0];i++){
     if (date[0]%i==0){
        isPrime=false;
